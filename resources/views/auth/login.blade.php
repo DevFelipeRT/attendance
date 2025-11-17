@@ -1,4 +1,11 @@
 <x-guest-layout>
+    @if (Route::has('register'))
+            <div class="w-full m-2 text-center">
+                <a class="p-2 m-2 text-center underline text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 dark:focus:ring-offset-gray-800" href="{{ route('register') }}">
+                    <span>Don't have an account? </span>{{ __('Create one.') }}
+                </a>
+            </div>
+        @endif
     <!-- Session Status -->
     <x-auth-session-status class="mb-4" :status="session('status')" />
 
