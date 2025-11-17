@@ -59,27 +59,48 @@
         </script>
     </head>
 
-    <body class="font-sans antialiased bg-background text-text dark:bg-background-inverse dark:text-text-inverse">
-        <div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0
-                    bg-background text-text
-                    dark:bg-background-inverse dark:text-text-inverse">
-            <div>
-                <a href="/">
-                    <x-application-logo class="w-20 h-20 fill-current text-text-muted dark:text-text-inverse-muted" />
-                </a>
-            </div>
+    <body class="font-sans antialiased">
+        <div
+            class="min-h-screen flex flex-col
+                   bg-background text-text
+                   dark:bg-background-inverse dark:text-text-inverse"
+        >
+            <main
+                class="flex-1 flex flex-col items-center
+                       justify-center pt-6 sm:pt-0"
+            >
+                <div>
+                    <a href="/">
+                        <x-application-logo
+                            class="w-20 h-20 fill-current text-text-muted dark:text-text-inverse-muted"
+                        />
+                    </a>
+                </div>
 
-            <div class="w-full sm:max-w-md mt-6 px-6 py-4
-                        bg-surface-base dark:bg-surface-inverse-raised
-                        shadow-card-soft overflow-hidden sm:rounded-2xl
-                        border border-border-subtle dark:border-border-inverse">
-                {{ $slot }}
-            </div>
+                <div
+                    class="w-full sm:max-w-md mt-6 px-6 py-4
+                           bg-surface-base dark:bg-surface-inverse-raised
+                           shadow-card-soft overflow-hidden sm:rounded-2xl
+                           border border-border-subtle dark:border-border-inverse"
+                >
+                    {{ $slot }}
+                </div>
+            </main>
 
-            <footer class="mt-6">
-                <div class="flex flex-col items-center justify-center sm:flex-row sm:items-baseline sm:gap-1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 ">
-                    <span class="text-sm font-normal text-text-muted">Developed under the MIT License by </span>
-                    <span class="font-bold">Felipe Ruiz Terrazas</span>
+            <footer
+                class="w-full border-t border-border-subtle dark:border-border-inverse"
+            >
+                <div
+                    class="flex flex-col items-center justify-center
+                           sm:flex-row sm:items-baseline sm:gap-1
+                           max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4"
+                >
+                    <span class="text-sm font-normal text-text-muted dark:text-text-inverse-muted">
+                        Developed under the MIT License by
+                    </span>
+                    <span class="text-sm font-semibold">
+                        Felipe Ruiz Terrazas
+                    </span>
                 </div>
             </footer>
         </div>
