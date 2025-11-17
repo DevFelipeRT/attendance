@@ -11,7 +11,7 @@ use Illuminate\Validation\Rule;
 /**
  * Validates data for updating mentorship attendance.
  */
-class sTOREMentorshipAttendanceRequest extends FormRequest
+class StoreMentorshipAttendanceRequest extends FormRequest
 {
     public function authorize(): bool
     {
