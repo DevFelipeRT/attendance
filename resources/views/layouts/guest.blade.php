@@ -59,12 +59,8 @@
         </script>
     </head>
 
-    <body class="font-sans antialiased">
-        <div
-            class="min-h-screen flex flex-col
-                   bg-background text-text
-                   dark:bg-background-inverse dark:text-text-inverse"
-        >
+    <body class="font-sans antialiased bg-background text-text dark:bg-background-inverse dark:text-text-inverse">
+        <div class="min-h-screen flex flex-col" >
             <main
                 class="flex-1 flex flex-col items-center
                        justify-center pt-6 sm:pt-0"
