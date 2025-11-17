@@ -47,7 +47,7 @@ class StudentController extends Controller
         $student = Student::query()->create($data);
 
         return redirect()
-            ->route('students.edit', $student)
+            ->route('students.index', $student)
             ->with('status', 'Student successfully created.');
     }
 
