@@ -249,7 +249,7 @@
             <div class="border-t border-border-subtle dark:border-border-inverse px-4 py-4 text-sm bg-surface-subtle/60 dark:bg-surface-inverse-subtle/60">
                 <div class="flex items-start gap-3">
                     <div class="flex-1 min-w-0">
-                        <div class="font-medium text-text dark:text-text-inverse truncate">
+                        <div class="font-medium text-text dark:text-text-inverse text-pretty hyphens-auto line-clamp-2">
                             {{ Auth::user()->name }}
                         </div>
                         <div class="text-xs text-text-muted dark:text-text-inverse-muted truncate">
