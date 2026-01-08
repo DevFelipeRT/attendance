@@ -5,7 +5,7 @@ A browser-only Laravel MVP for education teams to manage attendance and mentorsh
 ## Core Use Cases
 
 - Maintain master data: students, teachers/mentors, and subjects.
-- Create class groups, enroll students, generate lessons, and take attendance.
+- Create class groups, enroll students, generate lessons, and take attendance (class groups can operate as regular cohorts or single-student groups).
 - Manage mentorships with single-student enrollment, schedule sessions, capture attendance, and record credit-based payments.
 
 ## Tech Stack
@@ -51,4 +51,4 @@ A browser-only Laravel MVP for education teams to manage attendance and mentorsh
 
 - The UI is the only interface; there is no public HTTP API.
 - Mentorships are 1:1 (single-student) and billed using lesson/session credits.
-- Class-group monthly billing is intentionally excluded from the system.
+- Class groups may be configured for single-student delivery but do not handle monthly billing.

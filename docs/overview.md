@@ -15,6 +15,7 @@ This MVP supports **admin staff** and **teachers/mentors** who manage attendance
    - Create and maintain students, teachers/mentors, and subjects.
 2. **Class Groups**
    - Create class groups, enroll students, generate lessons, and capture attendance.
+   - Class groups can operate as regular cohorts (2+ students) or as single-student groups.
 3. **Mentorships (1:1)**
    - Create mentorships with a single student, schedule sessions, record attendance, and log credit-based payments.
 
@@ -25,7 +26,7 @@ This MVP supports **admin staff** and **teachers/mentors** who manage attendance
 
 ## Glossary
 
-- **Class Group:** A cohort of students taking lessons together.
+- **Class Group:** A cohort of students taking lessons together; may also be a single-student group.
 - **Enrollment:** A student’s membership in a class group.
 - **Lesson:** A scheduled class-group meeting.
 - **Attendance:** Presence records for lessons or mentorship sessions.

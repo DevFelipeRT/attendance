@@ -17,6 +17,7 @@ Responsible for class-group lifecycle and attendance.
 
 - **Entities:** ClassGroup, ClassLesson, ClassEnrollment, Attendance.
 - **Primary workflows:** create class groups, enroll students, generate lessons, capture attendance.
+- **Operational modes:** a class group with a single enrollment is treated as a mentorship-style group for lesson duration rules, while groups with multiple enrollments are treated as regular cohorts.
 
 ### Mentorship Management
 

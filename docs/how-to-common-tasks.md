@@ -13,6 +13,8 @@
 3. Generate lessons for the class group.
 4. Record attendance for each lesson.
 
+**Note:** A class group with only one enrollment is treated as a mentorship-style group for lesson duration validation, but credit billing still happens in the Mentorship module.
+
 ## Run a Mentorship Workflow (1:1)
 
 1. Create a mentorship with a single student and a mentor.
