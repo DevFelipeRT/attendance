@@ -12,7 +12,7 @@ A browser-only Laravel MVP for education teams to manage attendance and mentorsh
 
 - **Backend:** PHP 8.2, Laravel 12, Eloquent ORM
 - **Frontend tooling:** Vite, Tailwind CSS, Alpine.js
-- **Testing:** PHPUnit
+- **Testing(planned, not implemented yet):** PHPUnit
 
 ## Quickstart
 
